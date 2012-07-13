@@ -20,7 +20,7 @@ div.customselect dd a {
   height: 25px; line-height: 25px;
   overflow: hidden;
 }
-div.customselect dt a { background: url(examples/icons.png) no-repeat 100% 5px; }
+div.customselect dt a { background: url(icons.png) no-repeat 100% 5px; }
 div.customselect dt span { display: block; overflow: hidden; text-overflow: ellipsis;}
 div.customselect dd ul {
   max-height: 200px;
