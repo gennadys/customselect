@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Custom select examples</title>
+  <meta charset="utf-8">
+
+  <link href="reset.css" media="screen" rel="stylesheet">
+  <link href="../customselect.css" media="screen" rel="stylesheet">
+  <style>
+    body { padding: 30px; }
+  </style>
+</head>
+<body>
+  <div>
+    <select name="country">
+      <option value=""></option>
+      <option value="1" data-image="sport.png">Австралия</option>
+      <option value="2" data-image="sport.png">Австрия</option>
+      <option value="3" data-image="sport.png">Азербайджан</option>
+      <option value="4" data-image="sport.png">Армения</option>
+      <option value="5" data-image="sport.png">Белоруссия</option>
+      <option value="6" data-image="sport.png">Бельгия</option>
+      <option value="7" data-image="sport.png">Болгария</option>
+      <option value="8" data-image="sport.png">Великобритания</option>
+      <option value="9" data-image="sport.png">Венгрия</option>
+      <option value="10" data-image="sport.png">Германия</option>
+      <option value="11" data-image="sport.png" selected="selected">Греция</option>
+      <option value="12" data-image="sport.png">Грузия</option>
+      <option value="13" data-image="sport.png">Дания</option>
+      <option value="14" data-image="sport.png">Израиль</option>
+      <option value="15" data-image="sport.png">Ирландия</option>
+      <option value="16" data-image="sport.png">Исландия</option>
+      <option value="17" data-image="sport.png">Испания</option>
+      <option value="18" data-image="sport.png">Италия</option>
+      <option value="19" data-image="sport.png">Казахстан</option>
+      <option value="20" data-image="sport.png">Канада</option>
+    </select>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="../customselect.js"></script>
+  <script>
+    $('select').customSelect();
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+div.customselect * { margin: 0; padding: 0; }
+div.customselect img { border: none; vertical-align: middle; width: 25px; height: 25px; }
+div.customselect select { position: absolute; left: -9999px; }
+
+div.customselect {
+  position: relative; z-index: 1;
+  white-space: nowrap;
+}
+div.customselect a, div.customselect a:hover { color: #333; text-decoration: none; }
+div.customselect dd { position: absolute; top: 26px; z-index: 10; }
+div.customselect dt {
+  display: inline-block;
+  border: 1px solid #ACACAC;
+  background-color: #E5E5E5;
+}
+div.customselect dt a,
+div.customselect dd a {
+  display: block;
+  padding-right: 25px;
+  height: 25px; line-height: 25px;
+  overflow: hidden;
+}
+div.customselect dt a { background: url(examples/icons.png) no-repeat 100% 5px; }
+div.customselect dt span { display: block; overflow: hidden; text-overflow: ellipsis;}
+div.customselect dd ul {
+  max-height: 200px;
+  border: 1px solid #ACACAC;
+  background: #FFF;
+  overflow: auto;
+}
+div.customselect dd ul li.selected a { background-color: #E5E5E5; }
+div.customselect dd ul li a:hover { background-color: #EDEDED; }
+div.customselect dl.focus dt { border-color: #333; }
